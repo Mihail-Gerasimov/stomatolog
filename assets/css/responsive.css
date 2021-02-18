@@ -30,6 +30,20 @@ Version: 1.0.0
     .individ-position__header {
         top: 14px;
     }
+    .phone-box--popap {
+        font-size: 13px;
+    }
+    .call-container {
+        top: 178%;
+    }
+    .link-box {
+        width: 160px;
+        top: 210%;
+        left: 43px;
+    }
+    .logo-box::after {
+        left: 48%;
+    }
 }
 
 @media (max-width: 1200px) {
