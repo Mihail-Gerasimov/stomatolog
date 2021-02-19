@@ -387,6 +387,14 @@ Version: 1.0.0
 }
 
 @media (max-width: 576px) {
+    .call-container-show {
+        position: absolute !important;
+        top: 66px;
+        left: -32px;
+        border: 1px solid black !important;
+        border-radius: 5px;
+        z-index: 100;
+    }
     .logo-title-individ {
         margin-left: 20px !important;
     }
@@ -538,11 +546,13 @@ Version: 1.0.0
         display: none;
     }
     .link-box {
-        position: relative;
-        display: none;
-        left: -34%;
-        border: none;
-        padding: 0;
+        padding: 10px;
+        position: absolute;
+        top: 65px;
+        left: 11px;
+        border: 1px solid black;
+        border-radius: 5px;
+        z-index: 100;
     }
     .call-container {
         position: relative;
@@ -551,19 +561,25 @@ Version: 1.0.0
     .logo {
         width: 125px;
     }
-    .link-box-show {
+    /* .link-box-show {
         display: block;
         top: 90px;
         margin-bottom: 20px;
-    }
-    .call-container-show {
+    } */
+    /* .call-container-show {
         display: block;
         top: 90px;
         top: 15px;
-    }
+    } */
 }
 
 @media (max-width: 460px) {
+    .call-container-show {
+        top: 60px;
+    }
+    .link-box {
+        top: 54px !important;
+    }
     .phone-box {
         margin-top: 10px;
     }
