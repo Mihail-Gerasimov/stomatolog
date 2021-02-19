@@ -5910,6 +5910,32 @@ ul.theme-ul li img {
     display: block;
 }
 
+.carousel-item {
+    overflow: hidden !important;
+    max-width: 900px !important;
+    max-height: 450px !important;
+}
+
+.carousel {
+    max-width: 900px !important;
+}
+
+.carousel-item img {
+    width: 100% !important;
+    max-height: 450px !important;
+    border-radius: 30px;
+}
+
+
+/* .carousel-inner {
+    max-width: 900px !important;
+} */
+
+.carousel-caption {
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
 .red-arrow {
     position: absolute;
     top: 30px;
