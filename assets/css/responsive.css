@@ -93,6 +93,9 @@ Version: 1.0.0
     .carousel-indicators {
         bottom: 15px;
     }
+    .whats-we__pisture {
+        max-height: 370px;
+    }
 }
 
 @media (max-width: 992px) {
@@ -282,6 +285,9 @@ Version: 1.0.0
     .mb-md-80 {
         margin-bottom: 80px;
     }
+    .whats-we__pisture-individ {
+        max-height: 266px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -387,6 +393,12 @@ Version: 1.0.0
 }
 
 @media (max-width: 576px) {
+    .btn-social__footer--title {
+        font-size: 25px;
+    }
+    .phone-box {
+        margin-left: 48px !important;
+    }
     .call-container-show {
         position: absolute !important;
         top: 66px;
@@ -439,6 +451,7 @@ Version: 1.0.0
         padding: 20px;
     }
     .about-counter .counter-box {
+        height: 160px !important;
         display: block;
         text-align: center;
     }
@@ -540,7 +553,8 @@ Version: 1.0.0
         font-size: 12px;
     }
     .logo-box::after {
-        display: none;
+        left: 37%;
+        height: 83%;
     }
     .line-left::after {
         display: none;
@@ -581,7 +595,8 @@ Version: 1.0.0
         top: 54px !important;
     }
     .phone-box {
-        margin-top: 10px;
+        margin-top: 10px !important;
+        margin-left: 48px !important;
     }
     .red-arrow {
         left: -39px;
@@ -706,7 +721,7 @@ Version: 1.0.0
 
 @media (max-width: 375px) {
     .logo {
-        margin-top: -27px;
+        /* margin-top: -27px; */
         width: 125px;
     }
     .carousel-caption {

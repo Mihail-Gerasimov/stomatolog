@@ -1747,7 +1747,9 @@ label.custom-checkbox .checkmark:after {
 ========================*/
 
 .slider {
-    background-image: url(../images/banner/banner12.jpg);
+    /* background-image: url(../images/banner/banner12.jpg); */
+    background-image: url(../images/banner/general-fon-images.JPG);
+    background-position-y: top;
     height: 800px;
 }
 
@@ -2087,19 +2089,21 @@ label.custom-checkbox .checkmark:after {
 
 .counter-style-2 .counter-box,
 .about-counter .counter-box {
-    max-width: 200px;
+    max-width: 220px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .about-counter .counter-box {
+    height: 110px !important;
     display: flex;
-    align-items: center;
-    max-width: 100%
+    justify-content: center;
+    /* align-items: center; */
+    /* max-width: 100% */
 }
 
 .about-counter .counter-box .counter-icon {
-    margin-right: 20px;
+    margin-right: 10px;
     font-size: 65px;
     line-height: 1;
     color: #fff;
@@ -2111,7 +2115,7 @@ label.custom-checkbox .checkmark:after {
 }
 
 .about-counter .counter-box .counter span.count {
-    font-size: 50px;
+    font-size: 47px;
     font-weight: 700;
     line-height: 1;
     display: block;
@@ -4015,8 +4019,62 @@ label.custom-checkbox .checkmark:after {
     height: 42px;
 }
 
+.img-man-little {
+    height: 500px;
+}
+
+.whats-we__pisture {
+    height: auto;
+    width: 300px;
+    max-height: 450px;
+}
+
+.btn-social__footer--title {
+    color: #c30b0b;
+    font-size: 35px;
+    text-align: center;
+}
+
+.btn-social__footer--item {
+    font-size: 17px;
+    padding: 5px 0 !important;
+    width: 240px;
+    background-color: #6060ff;
+    color: #fff;
+    border-radius: 20px;
+    position: relative;
+    cursor: pointer !important;
+    display: block;
+}
+
+.btn-social__footer--item a {
+    cursor: pointer;
+    color: #fff;
+}
+
+.btn-social__footer--item:hover a {
+    color: #fff !important;
+}
+
+.btn-social__footer--item:focus a {
+    color: #fff !important;
+}
+
+.btn-social__footer--item-individ {
+    background-color: #ff4040;
+}
+
+.general-footer-info {
+    display: flex;
+    margin: 0 auto;
+    width: 220px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
 .footer-style-1 .footer-info {
-    padding-left: 10%;
+    /* padding-left: 10%; */
+    margin: 0 auto;
 }
 
 .footer-style-2 {
@@ -5922,8 +5980,19 @@ ul.theme-ul li img {
 
 .carousel-item img {
     width: 100% !important;
-    max-height: 450px !important;
+    /* max-height: 450px !important; */
     border-radius: 30px;
+}
+
+.footer__icon--item {
+    width: 55px;
+    transform: 0.3s;
+    cursor: pointer;
+}
+
+.footer__icon--item:hover {
+    transform: 0.3s;
+    transform: scale(1.2);
 }
 
 
