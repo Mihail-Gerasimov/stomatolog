@@ -199,6 +199,7 @@ label {
 }
 
 .image-fit {
+    max-height: 550px;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -2063,8 +2064,8 @@ label.custom-checkbox .checkmark:after {
     content: '';
     background: #00a3c8;
     display: block;
-    height: 80%;
-    top: 10%;
+    height: 100%;
+    top: 0%;
     z-index: 0;
     position: absolute;
     width: 100%;
@@ -5855,6 +5856,10 @@ ul.theme-ul li img {
     height: 100%;
 }
 
+.individ-position-carousel-indicators {
+    bottom: 15px;
+}
+
 .main-service-wrapper a {
     position: absolute;
     width: 100%;
@@ -5895,7 +5900,7 @@ ul.theme-ul li img {
 .logo-box::after {
     position: absolute;
     content: '';
-    left: 40%;
+    left: 31%;
     transform: translateX(-50%);
     height: 60%;
     width: 3px;
@@ -5903,7 +5908,7 @@ ul.theme-ul li img {
 }
 
 .logo {
-    width: 230px;
+    width: 140px;
 }
 
 .line-left {
