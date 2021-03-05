@@ -105,6 +105,9 @@ Version: 1.0.0
 }
 
 @media (max-width: 992px) {
+    .general-footer-info {
+        width: 250px;
+    }
     /*topbar*/
     .topbar-style-1 .left-side .language-box,
     .topbar-style-1 .left-side p {
@@ -297,6 +300,22 @@ Version: 1.0.0
 }
 
 @media (max-width: 767px) {
+    .general-footer-info {
+        width: 300px;
+        text-align: center;
+        margin-bottom: 10px;
+        padding-bottom: 15px;
+        border-bottom: 1.5px solid red;
+    }
+    .general-footer-info__text {
+        margin-bottom: 0px;
+    }
+    .section-padding {
+        padding: 60px 0;
+    }
+    .general-footer-info:last-child {
+        border: none;
+    }
     /*topbar*/
     .topbar-style-1 .left-side .language-box,
     .topbar-style-1 .left-side p {
@@ -331,6 +350,17 @@ Version: 1.0.0
     }
     .intro-box .intro-wrapper {
         max-width: 100%;
+    }
+    .slider .banner-slider .banner-text h1 {
+        font-size: 40px !important;
+    }
+    .text-info-mostident {
+        font-size: 30px !important;
+    }
+    .text-sale-misto {
+        text-shadow: -1px 1px black !important;
+        font-size: 13px !important;
+        width: 310px;
     }
     /*why choose us*/
     .style-3 .topbar-style-1 .right-side>ul>li.apointment-btn,
@@ -399,11 +429,32 @@ Version: 1.0.0
 }
 
 @media (max-width: 576px) {
+    .slider .banner-slider .banner-text h1 {
+        font-size: 28px !important;
+        text-shadow: -1px 1px black !important;
+    }
+    .text-info-mostident {
+        font-size: 21px !important;
+    }
+    .text-sale-misto {
+        text-shadow: -1px 1px black !important;
+        font-size: 12px !important;
+        width: auto;
+    }
+    .mobile-menu-navigation__top {
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
     .btn-social__footer--title {
         font-size: 25px;
     }
     .phone-box {
-        margin-left: 48px !important;
+        margin-left: 0px !important;
+        margin-top: 0px !important;
+        margin-right: 10px;
     }
     .call-container-show {
         position: absolute !important;
@@ -417,23 +468,32 @@ Version: 1.0.0
         margin-left: 20px !important;
     }
     .header__map-box {
-        margin-top: 46px !important;
-        margin-left: 43px !important;
+        margin-top: 0px !important;
+        margin-left: 0px !important;
     }
     .individ-phone-ico {
         margin-right: 21px;
     }
     .red-arrow {
         left: -39px;
-        top: 23px;
+        top: 11px;
     }
     .time-box {
-        margin-top: 36px !important;
-        margin-left: 43px !important;
+        margin-top: 30px !important;
+        margin-left: 0px !important;
+    }
+    .time-box-position {
+        display: flex;
+    }
+    .time-box-position--mobile {
+        margin-right: 10px;
+    }
+    .time-box-position--mobile:last-child {
+        margin-right: 0px;
     }
     .individ-position__header {
         left: 4px;
-        top: 19px;
+        top: 7px;
     }
     .carousel-caption {
         bottom: -30px;
@@ -601,24 +661,47 @@ Version: 1.0.0
         top: 54px !important;
     }
     .phone-box {
-        margin-top: 10px !important;
-        margin-left: 48px !important;
+        /* margin-top: 10px !important;
+        margin-left: 48px !important; */
     }
     .red-arrow {
-        left: -39px;
-        top: 14px;
+        /* left: -39px;
+        top: 14px; */
+    }
+    .logo-box h5,
+    .phone-box h5,
+    .header__map-box h5,
+    .time-box h5 {
+        font-size: 12px;
+    }
+    .red-arrow {
+        left: -24px;
+        top: 11px;
+    }
+    .time-box {
+        margin-top: 15px !important;
+        margin-left: -4px !important;
+    }
+    .individ-phone-ico {
+        margin-right: 6px;
+    }
+    .header-ico {
+        margin-right: 6px;
     }
     .header__map-box {
-        margin-top: 29px !important;
-        margin-left: 42px !important;
+        /* margin-top: 29px !important;
+        margin-left: 42px !important; */
     }
     .individ-position__header {
         left: 4px;
-        top: 10px;
+        top: 9px;
+    }
+    .mobile-menu-navigation__top {
+        margin-top: 15px;
     }
     .time-box {
-        margin-top: 29px !important;
-        margin-left: 42px !important;
+        /* margin-top: 29px !important;
+        margin-left: 42px !important; */
     }
     .time-box-position {
         display: flex;
