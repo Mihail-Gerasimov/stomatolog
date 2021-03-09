@@ -943,9 +943,9 @@ Version: 1.0.0
             top: 45%;
             left: 0%;
         }
-        .individ-position-carousel-indicators {
+        /* .individ-position-carousel-indicators {
             bottom: 40px !important;
-        }
+        } */
     }
     
     @media (max-width: 410px) {
