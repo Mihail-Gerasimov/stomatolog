@@ -208,8 +208,8 @@ label {
 
 .transform-center {
     position: absolute;
-    top: 50%;
-    left: 0;
+    top: 72%;
+    left: 13%;
     right: 0;
     transform: translate(0%, -50%);
     z-index: 1;
@@ -260,17 +260,19 @@ label {
 }
 
 .text-info-mostident {
+    line-height: 53px !important;
     margin-bottom: 10px !important;
-    text-shadow: -1px 1px black !important;
+    /* text-shadow: -1px 1px black !important; */
     font-size: 40px !important;
 }
 
 .title-header__misto {
-    text-shadow: -3px 1px black;
+    /* text-shadow: -3px 1px black; */
 }
 
 .text-sale-misto {
-    text-shadow: -1px 1px black !important;
+    /* text-shadow: -1px 1px black !important; */
+    line-height: 25px !important;
     font-size: 17px !important;
 }
 
@@ -1770,12 +1772,13 @@ label.custom-checkbox .checkmark:after {
 }
 
 .slider .banner-slider .banner-text {
-    max-width: 630px;
+    max-width: 885px;
     margin: 0 auto 0 0;
 }
 
 .slider .banner-slider .banner-text h1 {
     font-size: 60px;
+    line-height: 66px !important;
 }
 
 
@@ -5872,8 +5875,23 @@ ul.theme-ul li img {
     height: 100%;
 }
 
+.carousel-slider__whats__we {
+    height: 960px !important;
+    max-height: 960px !important;
+}
+
 .individ-position-carousel-indicators {
-    bottom: 15px;
+    bottom: 150px;
+}
+
+.carousel-slider__whats__we--block {
+    height: 960px !important;
+    max-height: 850px !important;
+}
+
+.carousel-slider__whats__we--item {
+    height: 960px !important;
+    max-height: 850px !important;
 }
 
 .main-service-wrapper a {
@@ -5916,7 +5934,7 @@ ul.theme-ul li img {
 .logo-box::after {
     position: absolute;
     content: '';
-    left: 31%;
+    left: 33.5%;
     transform: translateX(-50%);
     height: 60%;
     width: 3px;
@@ -5924,7 +5942,7 @@ ul.theme-ul li img {
 }
 
 .logo {
-    width: 140px;
+    width: 175px;
 }
 
 .line-left {
@@ -5992,7 +6010,7 @@ ul.theme-ul li img {
 .carousel-item {
     overflow: hidden !important;
     max-width: 900px !important;
-    max-height: 450px !important;
+    max-height: 450px;
 }
 
 .carousel {
